@@ -99,11 +99,8 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-color: #82a6b7!important;
+		
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3577,7 +3574,9 @@ input, select, textarea {
 		}
 
 		#main .spotlight .image {
-			border-color: #dddddd;
+			-webkit-box-shadow: 2px 11px 13px -10px rgba(0,0,0,0.75);
+			-moz-box-shadow: 2px 11px 13px -10px rgba(0,0,0,0.75);
+			box-shadow: 2px 11px 13px -10px rgba(0,0,0,0.75);
 		}
 
 		#main > .main {
